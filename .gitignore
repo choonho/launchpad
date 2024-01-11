@@ -1,5 +1,6 @@
 .terraform*
 *.tfstate*
+*.tfvars
 .idea
 .DS_Store
 __pycache__
@@ -8,4 +9,6 @@ config
 secret-key
 data/helm/cache
 data/helm/config
+data/kubeconfig/*
+data/tfstates/*
 gobin
